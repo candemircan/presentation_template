@@ -1,0 +1,22 @@
+---
+title: "Title"
+author: "Can Demircan"
+csl: refs.csl
+format:
+  revealjs:
+    theme: [default, basic-theme.scss]
+    toc: false
+    chalkboard:
+      buttons: false
+    menu: false
+    slide-number: true
+    show-slide-number: all
+    height: 1080
+    width: 1920
+    preview-links: auto
+revealjs-plugins:
+    - pointer
+bibliography: references.bib
+---
+
+## Some Slides
