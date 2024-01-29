@@ -1,5 +1,4 @@
 // taken from Russ Poldrack's template (https://github.com/poldrack/talks-template/blob/main/talk/rp-theme.scss)
-// with some colour changes
 
 // adapted from https://github.com/jthomasmock/arrow-dplyr/blob/master/theme/q-theme.scss
 /*-- scss:defaults --*/
@@ -22,7 +21,7 @@ $presentation-heading-font: 'IBM Plex Serif', serif;
 // colors
 $body-bg: #fff !default;
 $body-color: #000 !default;
-$link-color: #26351c !default;
+$link-color: #972D15 !default;
 $code-block-bg: #f2f2f2;
 $code-block-font-size: 0.7em;
 
@@ -39,7 +38,9 @@ h1 {
   font-size: 24px;
 }
 
-.author, .date, .institution {
+.author,
+.date,
+.institution {
   font-size: 48px;
 }
 
@@ -70,13 +71,13 @@ h1 {
 }
 
 .reveal .slides section .fragment.semi-fade-out {
-	opacity: 1;
-	visibility: inherit;
+  opacity: 1;
+  visibility: inherit;
 
-	&.visible {
-		opacity: 0.25;
-		visibility: inherit;
-	}
+  &.visible {
+    opacity: 0.25;
+    visibility: inherit;
+  }
 }
 
 .sectionhead {
@@ -95,4 +96,11 @@ h1 {
   padding: 5px 2px 5px 2px;
   height: 205px;
   border: 2px solid;
+}
+
+.reveal .slide-logo {
+  height: 100px !important;
+  width: 100px !important;
+  max-width: unset !important;
+  max-height: unset !important;
 }
